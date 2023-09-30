@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 800px; 
+    height: 1250px; 
+    margin: 0 auto; 
+    background-color: rgba(176, 196, 222, 0.5);
+    padding: 90px;
+    box-shadow: 0 5px 15px rgba( 0,0,0, 0.5);
+}
+
+.teks{
+    margin: 20px 20px 20px 20px;
+}
+
+.container h1{
+    font-size: 2.63rem;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+
+.identitas img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+table, td{
+    border-collapse: collapse;
+    border: 1px solid #B0C4DE;
+    background-color: rgba(0, 49, 83, 0.1); 
+}
+
+table .tautan{
+    background-color: rgba(0, 49, 83, 0.7); 
+}
+
+table .tautan:hover{
+    background-color: rgba(0, 49, 83, 0.5);
+}
+
+table a i, a p{
+    color:#B0C4DE;
+    margin-left: 0;
+}
+
+table{
+    width: 504px;
+}
+
+table p{
+    margin: 10px;
+    font-size: 1rem;
+}
+
+table p span, a span{
+    margin-right: 10px;
+}
+
+td{
+    width: 252px;
+}
+
+.identitas{
+    display: flex;
+    gap: 50px;
+}
+
+.deskripsi{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.pendidikan h2{
+    margin-top: 30px;
+    margin-bottom:0;
+    font-size: 1.8rem;
+    padding:0;
+    border-bottom: 1px solid rgba(0, 49, 83, 0.3);
+}
+
+.pendidikan ul{
+    margin-left:30px;
+    margin-top: 0;
+    padding:0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.pendidikan ul li::marker{
+    font-size: 2rem;
+}
+
+.pendidikan ul li{
+    font-size: 1.1rem;
+}
+
+.pendidikan ul li .table-sma{
+    width:300px;
+}
+
+.pendidikan ul li .table-kuliah{
+    width:320px;
+}
+
+.pendidikan ul li tr{
+    background-color: rgba(0, 49, 83, 0.0);
+}
+
+.pendidikan ul li span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:rgba(0, 49, 83, 1);
+}
+
+.pendidikan ul li .jurusan{
+    font-style: italic;
+}
+
+.non-formal h2{
+    margin-top: 30px;
+    margin-bottom:10px;
+    font-size: 1.8rem;
+    padding:0;
+    border-bottom: 1px solid rgba(0, 49, 83, 0.3);
+}
+
+.non-formal span{
+    font-size: 1.3rem;
+    color: rgba(0, 49, 83, 1);
+    font-weight: bold;
+}
+
+.non-formal ul{
+    list-style: none;
+    padding: 10px;
+    margin-top:0;
+}
+
+.non-formal ul li{
+    padding: 2px;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    width: 50%;
+    background-color: rgba(0, 49, 83, 0.1);
+}
+
+
+
+.skill h2{
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-size: 1.8rem;
+    padding:0;
+    border-bottom: 1px solid rgba(0, 49, 83, 0.3);
+}
+
+.skill ol{
+    margin-top: 0;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.skill ol li{
+    margin-bottom: 4px;
+}
+
+.software h2{
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-size: 1.8rem;
+    padding:0;
+    box-shadow:rgba(0, 49, 83, 0.5);
+    border-radius: 10px;
+    color: #B0C4DE;
+}
+
+.interest-skill img{
+    width: 80px;
+    margin:0;
+    padding:0;
+}
+
+.tabel-interest-skill{
+    margin-top:40px;
+    padding: 0;
+}
+
+.interest-skill{
+    text-align: center;
+}
+
+.baris-satu{
+    background-color: rgba(0, 49, 83, 0.5);
+}
+
+.baris-dua .interest ul {
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+.baris-dua .interest ul li{
+        border: 1px solid rgba(0, 49, 83, 0.1);
+        padding: 10px;
+        border-radius: 50%;
+        background-color: rgba(0, 49, 83, 0.3);
+}
+
+.baris-dua .softwaree ul{
+    justify-content: center;
+}
+
+.interest-skill ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+}
+
+.interest-skill{
+    width: 100%;
+}
